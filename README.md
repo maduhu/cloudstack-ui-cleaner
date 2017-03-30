@@ -15,8 +15,8 @@ Usage:
              -e CS_API_KEY=key \
              -e CS_API_SECRET=secret \
              -e VOLUME_REMOVE_DELAY_MINUTES=2 \
-             -e TAG_KEY=removed \
-             -e TAG_VALUE=true \
+             -e TAG_KEY=status \
+             -e TAG_VALUE=removed \
              -e DEBUG=true \
              bwsw/cloudstack-ui-cleaner
 ```
